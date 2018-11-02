@@ -1,0 +1,31 @@
+.play-button {
+    background-color: rgba(39, 39, 45, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: .25rem;
+    color: #FFFFFF;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin: 2rem auto 0;
+    max-width: 22rem;
+
+}
+
+a {
+    color: white;
+    transition: all .3s ease-in;
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+    color: white;
+    outline: none;
+    text-decoration: none;
+}
+
+.play-button:hover, .play-button:active {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #27272D;
+}
+
+

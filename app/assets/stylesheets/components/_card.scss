@@ -1,0 +1,51 @@
+
+
+
+#container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.cards {
+  margin: 85px 120px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  margin: 25px;
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  flex: 1 1 auto;
+  text-align: center;
+  color: white;
+}
+
+.content {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');
+  background-size: cover;
+  height:200px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+// .card_head {
+//   background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');
+//   background-size: cover;
+//   height:150px;
+// }
+
+// .card_body {
+//   background-color: #F8F9FA;
+//   padding:10px;
+// }
+
+// .card_footer{
+//   padding: 10px;
+
+// }

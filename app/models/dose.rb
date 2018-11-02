@@ -7,5 +7,4 @@ class Dose < ApplicationRecord
 end
 
 
-# validates cokctail score ingredients
 

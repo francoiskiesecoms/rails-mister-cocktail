@@ -1,0 +1,24 @@
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://images.pexels.com/photos/605408/pexels-photo-605408.jpeg?auto=compress&cs=tinysrgb&h=350');">
+  <div class="banner-content">
+    <h1>Best cocktails ever</h1>
+    <%= link_to "Add a cocktail", new_cocktail_path, :class => "play-button" %>
+  </div>
+</div>
+
+<div id="container">
+<!--   <div class="row">
+    <h1>All my cocktails</h1>
+  </div>
+  <div class="row">
+    <h3>They're so good mon gas</h3>
+  </div> -->
+  <div class="cards">
+    <% @cocktails.each do |cocktail| %>
+    <div class="card">
+      <div class="content">
+        <%= link_to cocktail.name, cocktail_path(cocktail)%>
+      </div>
+    </div>
+    <%end%>
+  </div>
+</div>
